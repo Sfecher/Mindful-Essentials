@@ -1,0 +1,176 @@
+html, body { 
+    height: 100%; 
+    width: 100%; 
+    margin: 0; 
+    background-color: #ffe4d5;
+}
+#wrapper{
+    background-color: #f2f2f2;
+    width: 100%;
+    height: 10%;
+    display: inline-block;
+}
+nav{
+    font-family: 'Avenir';
+    font-weight: 700;
+    color: #726a6a;
+    width: 60%;
+    text-align: center;
+    display: block;
+}
+.navLink{
+    color: #726a6a;
+    padding: 3%;
+}
+.logo{
+    display: block;
+    margin: 2%;
+}
+.personalize{
+    width: 100%;
+}
+button{
+    background-color: #8da4a4;
+    font-family: 'Avenir';
+    font-weight: 700;
+    color: #ffe4d5;
+    border-radius: 12px;
+    border: none;
+}
+
+/* form information */
+h2, h1{
+    font-family: 'Avenir';
+    font-weight: 700;
+    color: #726a6a; 
+}
+
+input[type=checkbox].normal, input[type=checkbox].oily, input[type=checkbox].dry, input[type=checkbox].combination, input[type=checkbox].sensitive, input[type=checkbox].aging {
+    display:none;
+}
+
+/* normal */
+input[type=checkbox].normal + label {
+    height: 78px;
+    width: 400px;
+    display:inline-block;
+    background-image: url('imgs/normalT.png');
+}
+
+input[type=checkbox].normal:checked + label {
+    height: 78px;
+    width: 400px;
+    display:inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url('imgs/normal2.png');
+}
+
+/* oily */
+input[type=checkbox].oily + label {
+    height: 78px;
+    width: 400px;
+    display:inline-block;
+    background-image: url('imgs/oily.png');
+}
+
+input[type=checkbox].oily:checked + label {
+    height: 78px;
+    width: 400px;
+    display:inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url('imgs/oily2.png');
+}
+
+/* dry */
+input[type=checkbox].dry + label {
+    height: 78px;
+    width: 400px;
+    display:inline-block;
+    background-image: url('imgs/Dry.png');
+}
+
+input[type=checkbox].dry:checked + label {
+    height: 78px;
+    width: 400px;
+    display:inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url('imgs/dry2.png');
+}
+
+/* combination */
+input[type=checkbox].combination + label {
+    height: 78px;
+    width: 400px;
+    display:inline-block;
+    background-image: url('imgs/combination.png');
+}
+
+input[type=checkbox].combination:checked + label {
+    height: 78px;
+    width: 400px;
+    display:inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url('imgs/combination2.png');
+}
+
+/* sensitive */
+input[type=checkbox].sensitive + label {
+    height: 78px;
+    width: 400px;
+    display:inline-block;
+    background-image: url('imgs/sensitive.png');
+}
+
+input[type=checkbox].sensitive:checked + label {
+    height: 78px;
+    width: 400px;
+    display:inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url('imgs/sensitive2.png');
+}
+
+/* aging */
+input[type=checkbox].aging + label {
+    height: 78px;
+    width: 400px;
+    display:inline-block;
+    background-image: url('imgs/aging.png');
+}
+
+input[type=checkbox].aging:checked + label {
+    height: 78px;
+    width: 400px;
+    display:inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url('imgs/aging2.png');
+}
+
+/* button */
+input[type=submit]{
+    font-family: 'Avenir';
+    font-weight: 700;
+    font-size: 25px;
+    color: #8da4a4;
+    border-radius: 12px;
+    border: none;
+    background-color: #f7d4cd;
+    width: 14%;
+    height: 2.5em;
+}
+input[type=submit]:hover{
+    font-family: 'Avenir';
+    font-weight: 700;
+    font-size: 25px;
+    color: #ffe4d5;
+    border-radius: 12px;
+    border: none;
+    background-color: #726a6a;
+    width: 14%;
+    height: 2.5em;
+}
