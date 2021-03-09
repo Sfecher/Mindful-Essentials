@@ -45,112 +45,6 @@ h2, h1{
     color: #726a6a; 
 }
 
-input[type=checkbox].normal, input[type=checkbox].oily, input[type=checkbox].dry, input[type=checkbox].combination, input[type=checkbox].sensitive, input[type=checkbox].aging {
-    display:none;
-}
-
-/* normal */
-input[type=checkbox].normal + label {
-    height: 78px;
-    width: 400px;
-    display:inline-block;
-    background-image: url('imgs/normalT.png');
-}
-
-input[type=checkbox].normal:checked + label {
-    height: 78px;
-    width: 400px;
-    display:inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    background-image: url('imgs/normal2.png');
-}
-
-/* oily */
-input[type=checkbox].oily + label {
-    height: 78px;
-    width: 400px;
-    display:inline-block;
-    background-image: url('imgs/oily.png');
-}
-
-input[type=checkbox].oily:checked + label {
-    height: 78px;
-    width: 400px;
-    display:inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    background-image: url('imgs/oily2.png');
-}
-
-/* dry */
-input[type=checkbox].dry + label {
-    height: 78px;
-    width: 400px;
-    display:inline-block;
-    background-image: url('imgs/Dry.png');
-}
-
-input[type=checkbox].dry:checked + label {
-    height: 78px;
-    width: 400px;
-    display:inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    background-image: url('imgs/dry2.png');
-}
-
-/* combination */
-input[type=checkbox].combination + label {
-    height: 78px;
-    width: 400px;
-    display:inline-block;
-    background-image: url('imgs/combination.png');
-}
-
-input[type=checkbox].combination:checked + label {
-    height: 78px;
-    width: 400px;
-    display:inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    background-image: url('imgs/combination2.png');
-}
-
-/* sensitive */
-input[type=checkbox].sensitive + label {
-    height: 78px;
-    width: 400px;
-    display:inline-block;
-    background-image: url('imgs/sensitive.png');
-}
-
-input[type=checkbox].sensitive:checked + label {
-    height: 78px;
-    width: 400px;
-    display:inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    background-image: url('imgs/sensitive2.png');
-}
-
-/* aging */
-input[type=checkbox].aging + label {
-    height: 78px;
-    width: 400px;
-    display:inline-block;
-    background-image: url('imgs/aging.png');
-}
-
-input[type=checkbox].aging:checked + label {
-    height: 78px;
-    width: 400px;
-    display:inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    background-image: url('imgs/aging2.png');
-}
-
 /* button */
 input[type=submit]{
     font-family: 'Avenir';
@@ -174,3 +68,48 @@ input[type=submit]:hover{
     width: 14%;
     height: 2.5em;
 }
+.productNavLink{
+    color: #726a6a;
+    padding: 3%;
+    text-align: center;
+    font-size: large;
+}
+
+#productNav{
+    margin-left: 20%;
+}
+.bonk{
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    height: 10%; 
+    width: 50%;
+    margin: 0% 0 0 -25%; 
+    color: #726a6a; 
+    font-family: "Avenir"; 
+    font-size: 20px; 
+    font-weight: bold;  
+}
+.chonk{
+    color: #726a6a;
+}
+.chonk:hover{
+    color: #8da4a4;
+}
+.chonk:visited{
+    color: #8da4a4; 
+}
+.catNames{
+    color:#726a6a; 
+    font-family: "Avenir"; 
+    margin-left: 3%;
+}
+.catWrapper{
+    position: relative; 
+    margin-left: 5%;
+}
+.catImg{
+    display: inline-block; width: 25%;
+}
+
+/* style="position: absolute; top: 50%; left: 50%; height: 10%; width: 50%; margin: 0% 0 0 -25%; color: #726a6a; font-family: Avenir; font-size: 20px; font-weight: bold;" */
