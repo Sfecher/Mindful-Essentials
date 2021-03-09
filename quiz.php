@@ -1,78 +1,82 @@
+<!-- This page is the quiz that the user will take to specify what they are wanting to get out of the quiz (skin care wants and needs) -->
+<?php
+    session_start();
+    $_SESSION['userName'] = 'Root';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>SKIN CARE</title>
-        <link rel="stylesheet" href="stylesheet.css">
+    <head>  
+        <link rel="icon" href="brain.jpg" type="image/x-icon">
     </head>
     <body>
-        <div id="wrapper">
-            <img src="imgs/logo2.png" alt="logo" id="logo">   
-            <nav>
-                <a href="quiz.php" class="navLink">QUIZ</a> 
-                <a href="#" class="navLink">PRODUCTS</a> 
-                <a href="#" class="navLink">ABOUT US</a> 
-            </nav>
-        </div>
-        <h1> Hello and welcome to the quiz</h1>
-        <form method="get">
+         <?php include ("header.php")?>
+        <?php include ("nav.php")?>
+
+        <h1> Hello and welcome to the quiz!</h1>
+        <form method="post" action="result.php">
+
             <h2>Choose your skin type (you can select more than one):</h2>
-            <input class="normal" type='checkbox' name='normal' value='valuable' id="normal"/>
-            <label for="normal"></label><br>
 
-            <input class="oily" type='checkbox' name='oily' value='valuable' id="oily"/>
-            <label for="oily"></label><br>
+            <input class="normal" type='checkbox' name='skinType[]' value='Normal' id="normal"/>
+            <label for="skinType[]">Normal</label><br>
 
-            <input class="dry" type='checkbox' name='dry' value='valuable' id="dry"/>
-            <label for="dry"></label><br>
+            <input class="oily" type='checkbox' name='skinType[]' value='Oily' id="oily"/>
+            <label for="skinType[]">Oily</label><br>
 
-            <input class="combination" type='checkbox' name='combination' value='valuable' id="combination"/>
-            <label for="combination"></label><br>
+            <input class="dry" type='checkbox' name='skinType[]' value='Dry' id="dry"/>
+            <label for="skinType[]">Dry</label><br>
 
-            <input class="sensitive" type='checkbox' name='sensitive' value='valuable' id="sensitive"/>
-            <label for="sensitive"></label><br>
+            <input class="combination" type='checkbox' name='skinType[]' value='Combination' id="combination"/>
+            <label for="skinType[]">Combination</label><br>
 
-            <input class="aging" type='checkbox' name='aging' value='valuable' id="aging"/>
-            <label for="aging"></label><br><br>
+            <input class="sensitive" type='checkbox' name='skinType[]' value='Sensitive' id="sensitive"/>
+            <label for="skinType[]">Sensitive</label><br>
+
+            <input class="aging" type='checkbox' name='skinType[]' value='Aging' id="aging"/>
+            <label for="skinType[]">Aging</label><br><br>
+
 
             <h2>What are some skin concerns? (you can select more than one):</h2>
-            <input class="redness" type='checkbox' name='redness' value='valuable' id="redness"/>
-            <label for="redness">Redness</label><br>
 
-            <input class="wrinkles" type='checkbox' name='wrinkles' value='valuable' id="wrinkles"/>
-            <label for="wrinkles">Wrinkles/Finelines</label><br>
+            <input class="redness" type='checkbox' name='concerns[]' value='Redness' id="Redness"/>
+            <label for="concerns[]">Redness</label><br>
 
-            <input class="firmness" type='checkbox' name='firmness' value='valuable' id="firmness"/>
-            <label for="firmness">Loss of Firmness</label><br>
+            <input class="wrinkles" type='checkbox' name='concerns[]' value='Wrinkles' id="Wrinkles"/>
+            <label for="concerns[]">Wrinkles/Finelines</label><br>
 
-            <input class="acne" type='checkbox' name='acne' value='valuable' id="acne"/>
-            <label for="acne">Acne</label><br>
+            <input class="acne" type='checkbox' name='concerns[]' value='Problem Skin' id="Problem Skin"/>
+            <label for="concerns[]">Acne</label><br>
 
-            <input class="dryness" type='checkbox' name='dryness' value='valuable' id="dryness"/>
-            <label for="dryness">Dryness</label><br>
 
-            <input class="hyperpigmentation" type='checkbox' name='hyperpigmentation' value='valuable' id="hyperpigmentation"/>
-            <label for="hyperpigmentation">Hyperpigmentation</label><br>
+            <input class="hyperpigmentation" type='checkbox' name='concerns[]' value='hyperpigmentation' id="Hyperpigmentation"/>
+            <label for="concerns[]">Hyperpigmentation</label><br>
 
-            <input class="sensitiveC" type='checkbox' name='sensitiveC' value='valuable' id="sensitiveC"/>
-            <label for="sensitiveC">Sensitive</label><br>
 
-            <input class="pores" type='checkbox' name='pores' value='valuable' id="pores"/>
-            <label for="pores">Large Pores</label><br>
+            <input class="pores" type='checkbox' name='concerns[]' value='Pores' id="Pores"/>
+            <label for="concerns[]">Large Pores</label><br>
 
-            <input class="texture" type='checkbox' name='texture' value='valuable' id="texture"/>
-            <label for="texture">Rough Texture</label><br><br>
+            <input class="dullness" type='checkbox' name='concerns[]' value='Dullness' id="Dullness"/>
+            <label for="concerns[]">Dullness</label><br>
+
             
+
             <h2>Would you like natural ingredients?:</h2>
-            <input class="yes" type='radio' name='yes' value='valuable' id="yes"/>
-            <label for="yes">Yes</label><br>
-            <input class="no" type='radio' name='no' value='valuable' id="no"/>
-            <label for="no">No</label><br><br>
+
+            <input class="yes" type='radio' name='natural' value='yesNat' id="yes"/>
+            <label for="natural">Yes</label><br>
+
+            <input class="no" type='radio' name='natural' value='noNat' id="no"/>
+            <label for="natural">No</label><br><br>
+
 
             <h2>Would you like a sunscreen in your routine?:</h2>
-            <input class="yes" type='radio' name='yes' value='valuable' id="yes"/>
-            <label for="yes">Yes</label><br>
-            <input class="no" type='radio' name='no' value='valuable' id="no"/>
-            <label for="no">No</label><br><br>
+
+            <input class="sunscreen" type='radio' name='sunscreen' value='yesScreen' id="sunscreen"/>
+            <label for="sunscreen">Yes</label><br>
+
+            <input class="sunscreen" type='radio' name='sunscreen' value='noScreen' id="sunscreen"/>
+            <label for="sunscreen">No</label><br><br>
 
             <input class="skinT" type="submit" name="button" id="button" value="CHOOSE">
         </form>
