@@ -1,0 +1,346 @@
+[15-Mar-2021 09:12:51 America/New_York] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/mndfaoqy/public_html/index.php on line 7
+[15-Mar-2021 09:12:51 America/New_York] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/mndfaoqy/public_html/index.php on line 7
+[15-Mar-2021 09:12:51 America/New_York] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/mndfaoqy/public_html/index.php on line 7
+[15-Mar-2021 09:12:51 America/New_York] PHP Warning:  include(nav.php): failed to open stream: No such file or directory in /home/mndfaoqy/public_html/index.php on line 8
+[15-Mar-2021 09:12:51 America/New_York] PHP Warning:  include(nav.php): failed to open stream: No such file or directory in /home/mndfaoqy/public_html/index.php on line 8
+[15-Mar-2021 09:12:51 America/New_York] PHP Warning:  include(): Failed opening 'nav.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/mndfaoqy/public_html/index.php on line 8
+[15-Mar-2021 09:12:51 America/New_York] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/mndfaoqy/public_html/index.php on line 13
+[15-Mar-2021 09:12:51 America/New_York] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/mndfaoqy/public_html/index.php on line 13
+[15-Mar-2021 09:12:51 America/New_York] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/mndfaoqy/public_html/index.php on line 13
+[15-Mar-2021 09:13:19 America/New_York] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or heredoc end (T_END_HEREDOC) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /home/mndfaoqy/public_html/header.php on line 10
+[15-Mar-2021 09:20:13 America/New_York] PHP Warning:  include(nav.php): failed to open stream: No such file or directory in /home/mndfaoqy/public_html/index.php on line 8
+[15-Mar-2021 09:20:13 America/New_York] PHP Warning:  include(nav.php): failed to open stream: No such file or directory in /home/mndfaoqy/public_html/index.php on line 8
+[15-Mar-2021 09:20:13 America/New_York] PHP Warning:  include(): Failed opening 'nav.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/mndfaoqy/public_html/index.php on line 8
+[15-Mar-2021 09:20:13 America/New_York] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/mndfaoqy/public_html/index.php on line 13
+[15-Mar-2021 09:20:13 America/New_York] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/mndfaoqy/public_html/index.php on line 13
+[15-Mar-2021 09:20:13 America/New_York] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/mndfaoqy/public_html/index.php on line 13
+[15-Mar-2021 09:20:14 America/New_York] PHP Warning:  include(nav.php): failed to open stream: No such file or directory in /home/mndfaoqy/public_html/index.php on line 8
+[15-Mar-2021 09:20:14 America/New_York] PHP Warning:  include(nav.php): failed to open stream: No such file or directory in /home/mndfaoqy/public_html/index.php on line 8
+[15-Mar-2021 09:20:14 America/New_York] PHP Warning:  include(): Failed opening 'nav.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/mndfaoqy/public_html/index.php on line 8
+[15-Mar-2021 09:20:14 America/New_York] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/mndfaoqy/public_html/index.php on line 13
+[15-Mar-2021 09:20:14 America/New_York] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/mndfaoqy/public_html/index.php on line 13
+[15-Mar-2021 09:20:14 America/New_York] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/mndfaoqy/public_html/index.php on line 13
+[15-Mar-2021 09:21:30 America/New_York] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'mndfaoqy_Admin'@'localhost' to database 'mindfulEssentials' in /home/mndfaoqy/public_html/result.php on line 19
+[15-Mar-2021 09:21:30 America/New_York] PHP Notice:  Undefined variable: information in /home/mndfaoqy/public_html/result.php on line 38
+[15-Mar-2021 09:21:30 America/New_York] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mndfaoqy/public_html/result.php on line 38
+[15-Mar-2021 09:21:30 America/New_York] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/mndfaoqy/public_html/result.php on line 138
+[15-Mar-2021 09:21:30 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/mndfaoqy/public_html/result.php:139
+Stack trace:
+#0 {main}
+  thrown in /home/mndfaoqy/public_html/result.php on line 139
+[15-Mar-2021 09:25:13 America/New_York] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'mndfaoqy_Admin'@'localhost' to database 'mndfaoqy_mindfulEssentials' in /home/mndfaoqy/public_html/result.php on line 19
+[15-Mar-2021 09:25:13 America/New_York] PHP Notice:  Undefined variable: information in /home/mndfaoqy/public_html/result.php on line 38
+[15-Mar-2021 09:25:13 America/New_York] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mndfaoqy/public_html/result.php on line 38
+[15-Mar-2021 09:25:13 America/New_York] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/mndfaoqy/public_html/result.php on line 138
+[15-Mar-2021 09:25:13 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/mndfaoqy/public_html/result.php:139
+Stack trace:
+#0 {main}
+  thrown in /home/mndfaoqy/public_html/result.php on line 139
+[15-Mar-2021 09:28:26 America/New_York] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'mndfaoqy'@'localhost' (using password: YES) in /home/mndfaoqy/public_html/result.php on line 19
+[15-Mar-2021 09:28:26 America/New_York] PHP Notice:  Undefined variable: information in /home/mndfaoqy/public_html/result.php on line 38
+[15-Mar-2021 09:28:26 America/New_York] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mndfaoqy/public_html/result.php on line 38
+[15-Mar-2021 09:28:26 America/New_York] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/mndfaoqy/public_html/result.php on line 138
+[15-Mar-2021 09:28:26 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/mndfaoqy/public_html/result.php:139
+Stack trace:
+#0 {main}
+  thrown in /home/mndfaoqy/public_html/result.php on line 139
+[15-Mar-2021 09:36:09 America/New_York] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'sfecher'@'localhost' (using password: YES) in /home/mndfaoqy/public_html/result.php on line 19
+[15-Mar-2021 09:36:09 America/New_York] PHP Notice:  Undefined variable: information in /home/mndfaoqy/public_html/result.php on line 38
+[15-Mar-2021 09:36:09 America/New_York] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mndfaoqy/public_html/result.php on line 38
+[15-Mar-2021 09:36:09 America/New_York] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/mndfaoqy/public_html/result.php on line 138
+[15-Mar-2021 09:36:09 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/mndfaoqy/public_html/result.php:139
+Stack trace:
+#0 {main}
+  thrown in /home/mndfaoqy/public_html/result.php on line 139
+[15-Mar-2021 09:36:55 America/New_York] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'mndfaoqy'@'localhost' (using password: YES) in /home/mndfaoqy/public_html/result.php on line 19
+[15-Mar-2021 09:36:55 America/New_York] PHP Notice:  Undefined variable: information in /home/mndfaoqy/public_html/result.php on line 38
+[15-Mar-2021 09:36:55 America/New_York] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mndfaoqy/public_html/result.php on line 38
+[15-Mar-2021 09:36:55 America/New_York] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/mndfaoqy/public_html/result.php on line 138
+[15-Mar-2021 09:36:55 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/mndfaoqy/public_html/result.php:139
+Stack trace:
+#0 {main}
+  thrown in /home/mndfaoqy/public_html/result.php on line 139
+[15-Mar-2021 09:37:33 America/New_York] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'mndfaoqy'@'localhost' (using password: YES) in /home/mndfaoqy/public_html/products.php on line 7
+[15-Mar-2021 09:37:33 America/New_York] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/mndfaoqy/public_html/products.php on line 29
+[15-Mar-2021 09:37:33 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/mndfaoqy/public_html/products.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/mndfaoqy/public_html/products.php on line 30
+[15-Mar-2021 09:45:18 America/New_York] PHP Notice:  Undefined variable: information in /home/mndfaoqy/public_html/result.php on line 38
+[15-Mar-2021 09:45:18 America/New_York] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mndfaoqy/public_html/result.php on line 38
+[15-Mar-2021 09:45:18 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/mndfaoqy/public_html/result.php:139
+Stack trace:
+#0 {main}
+  thrown in /home/mndfaoqy/public_html/result.php on line 139
+[15-Mar-2021 09:47:28 America/New_York] PHP Notice:  Undefined variable: information in /home/mndfaoqy/public_html/result.php on line 38
+[15-Mar-2021 09:47:28 America/New_York] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mndfaoqy/public_html/result.php on line 38
+[15-Mar-2021 10:40:06 America/New_York] PHP Notice:  Undefined variable: information in /home/mndfaoqy/public_html/products.php on line 109
+[15-Mar-2021 10:40:06 America/New_York] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mndfaoqy/public_html/products.php on line 109
+[15-Mar-2021 10:43:50 America/New_York] PHP Notice:  Undefined variable: information in /home/mndfaoqy/public_html/products.php on line 109
+[15-Mar-2021 10:43:50 America/New_York] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mndfaoqy/public_html/products.php on line 109
+[15-Mar-2021 10:54:38 America/New_York] PHP Notice:  Undefined variable: information in /home/mndfaoqy/public_html/products.php on line 109
+[15-Mar-2021 10:54:38 America/New_York] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mndfaoqy/public_html/products.php on line 109
+[15-Mar-2021 10:54:45 America/New_York] PHP Notice:  Undefined variable: information in /home/mndfaoqy/public_html/products.php on line 109
+[15-Mar-2021 10:54:45 America/New_York] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mndfaoqy/public_html/products.php on line 109
+[15-Mar-2021 10:58:11 America/New_York] PHP Notice:  Undefined variable: information in /home/mndfaoqy/public_html/products.php on line 109
+[15-Mar-2021 10:58:11 America/New_York] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mndfaoqy/public_html/products.php on line 109
+[15-Mar-2021 11:42:27 America/New_York] PHP Notice:  Undefined variable: information in /home/mndfaoqy/public_html/products.php on line 109
+[15-Mar-2021 11:42:27 America/New_York] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mndfaoqy/public_html/products.php on line 109
+[15-Mar-2021 11:42:29 America/New_York] PHP Notice:  Undefined variable: information in /home/mndfaoqy/public_html/products.php on line 109
+[15-Mar-2021 11:42:29 America/New_York] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mndfaoqy/public_html/products.php on line 109
+[15-Mar-2021 11:42:43 America/New_York] PHP Notice:  Undefined variable: information in /home/mndfaoqy/public_html/products.php on line 109
+[15-Mar-2021 11:42:43 America/New_York] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mndfaoqy/public_html/products.php on line 109
+[15-Mar-2021 11:42:50 America/New_York] PHP Notice:  Undefined variable: information in /home/mndfaoqy/public_html/products.php on line 109
+[15-Mar-2021 11:42:50 America/New_York] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mndfaoqy/public_html/products.php on line 109
+[15-Mar-2021 22:38:04 America/New_York] PHP Notice:  Undefined variable: information in /home/mndfaoqy/public_html/products.php on line 109
+[15-Mar-2021 22:38:04 America/New_York] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mndfaoqy/public_html/products.php on line 109
+[15-Mar-2021 23:40:11 America/New_York] PHP Notice:  Undefined variable: information in /home/mndfaoqy/public_html/result.php on line 38
+[15-Mar-2021 23:40:11 America/New_York] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mndfaoqy/public_html/result.php on line 38
+[15-Mar-2021 23:41:46 America/New_York] PHP Notice:  Undefined variable: information in /home/mndfaoqy/public_html/result.php on line 38
+[15-Mar-2021 23:41:46 America/New_York] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mndfaoqy/public_html/result.php on line 38
+[19-Mar-2021 18:44:11 America/New_York] PHP Notice:  Undefined variable: information in /home/mndfaoqy/public_html/result.php on line 38
+[19-Mar-2021 18:44:11 America/New_York] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mndfaoqy/public_html/result.php on line 38
+[23-Mar-2021 11:22:14 America/New_York] PHP Notice:  Undefined variable: information in /home/mndfaoqy/public_html/result.php on line 38
+[23-Mar-2021 11:22:14 America/New_York] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mndfaoqy/public_html/result.php on line 38
+[23-Mar-2021 11:22:14 America/New_York] PHP Fatal error:  Uncaught Error: Object of class mysqli_stmt could not be converted to string in /home/mndfaoqy/public_html/result.php:140
+Stack trace:
+#0 {main}
+  thrown in /home/mndfaoqy/public_html/result.php on line 140
+[23-Mar-2021 11:22:47 America/New_York] PHP Notice:  Undefined variable: information in /home/mndfaoqy/public_html/result.php on line 38
+[23-Mar-2021 11:22:47 America/New_York] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mndfaoqy/public_html/result.php on line 38
+[23-Mar-2021 11:22:47 America/New_York] PHP Fatal error:  Uncaught Error: Object of class mysqli_result could not be converted to string in /home/mndfaoqy/public_html/result.php:140
+Stack trace:
+#0 {main}
+  thrown in /home/mndfaoqy/public_html/result.php on line 140
+[23-Mar-2021 11:23:02 America/New_York] PHP Notice:  Undefined variable: information in /home/mndfaoqy/public_html/result.php on line 38
+[23-Mar-2021 11:23:02 America/New_York] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mndfaoqy/public_html/result.php on line 38
+[23-Mar-2021 11:23:56 America/New_York] PHP Notice:  Undefined variable: information in /home/mndfaoqy/public_html/result.php on line 38
+[23-Mar-2021 11:23:56 America/New_York] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mndfaoqy/public_html/result.php on line 38
+[23-Mar-2021 11:23:56 America/New_York] PHP Notice:  Undefined variable: stmtMain in /home/mndfaoqy/public_html/result.php on line 136
+[23-Mar-2021 11:24:00 America/New_York] PHP Notice:  Undefined variable: information in /home/mndfaoqy/public_html/result.php on line 38
+[23-Mar-2021 11:24:00 America/New_York] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mndfaoqy/public_html/result.php on line 38
+[23-Mar-2021 11:24:00 America/New_York] PHP Notice:  Undefined variable: stmtMain in /home/mndfaoqy/public_html/result.php on line 136
+[23-Mar-2021 11:24:06 America/New_York] PHP Notice:  Undefined variable: information in /home/mndfaoqy/public_html/result.php on line 38
+[23-Mar-2021 11:24:06 America/New_York] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mndfaoqy/public_html/result.php on line 38
+[23-Mar-2021 11:24:06 America/New_York] PHP Notice:  Undefined variable: stmtMain in /home/mndfaoqy/public_html/result.php on line 136
+[23-Mar-2021 11:24:22 America/New_York] PHP Notice:  Undefined variable: information in /home/mndfaoqy/public_html/result.php on line 38
+[23-Mar-2021 11:24:22 America/New_York] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mndfaoqy/public_html/result.php on line 38
+[23-Mar-2021 11:24:53 America/New_York] PHP Notice:  Undefined variable: information in /home/mndfaoqy/public_html/result.php on line 38
+[23-Mar-2021 11:24:53 America/New_York] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mndfaoqy/public_html/result.php on line 38
+[23-Mar-2021 11:24:53 America/New_York] PHP Fatal error:  Uncaught Error: Object of class mysqli_stmt could not be converted to string in /home/mndfaoqy/public_html/result.php:139
+Stack trace:
+#0 {main}
+  thrown in /home/mndfaoqy/public_html/result.php on line 139
+[23-Mar-2021 11:25:14 America/New_York] PHP Notice:  Undefined variable: information in /home/mndfaoqy/public_html/result.php on line 38
+[23-Mar-2021 11:25:14 America/New_York] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mndfaoqy/public_html/result.php on line 38
+[23-Mar-2021 11:25:14 America/New_York] PHP Fatal error:  Uncaught Error: Object of class mysqli_stmt could not be converted to string in /home/mndfaoqy/public_html/result.php:138
+Stack trace:
+#0 {main}
+  thrown in /home/mndfaoqy/public_html/result.php on line 138
+[23-Mar-2021 11:25:39 America/New_York] PHP Notice:  Undefined variable: information in /home/mndfaoqy/public_html/result.php on line 38
+[23-Mar-2021 11:25:39 America/New_York] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mndfaoqy/public_html/result.php on line 38
+[23-Mar-2021 12:06:31 America/New_York] PHP Notice:  Undefined variable: information in /home/mndfaoqy/public_html/result.php on line 38
+[23-Mar-2021 12:06:31 America/New_York] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mndfaoqy/public_html/result.php on line 38
+[24-Mar-2021 13:37:57 America/New_York] PHP Notice:  Undefined index: user in /home/mndfaoqy/public_html/managerHome.php on line 20
+[24-Mar-2021 13:37:57 America/New_York] PHP Notice:  Undefined index: user in /home/mndfaoqy/public_html/login.php on line 29
+[24-Mar-2021 13:37:57 America/New_York] PHP Notice:  Undefined index: pass in /home/mndfaoqy/public_html/login.php on line 30
+[24-Mar-2021 13:38:30 America/New_York] PHP Notice:  Undefined variable: information in /home/mndfaoqy/public_html/addedEntry.php on line 28
+[24-Mar-2021 13:38:30 America/New_York] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mndfaoqy/public_html/addedEntry.php on line 28
+[24-Mar-2021 13:39:02 America/New_York] PHP Warning:  include(db-config.inc.php): failed to open stream: No such file or directory in /home/mndfaoqy/public_html/functions.php on line 2
+[24-Mar-2021 13:39:02 America/New_York] PHP Warning:  include(db-config.inc.php): failed to open stream: No such file or directory in /home/mndfaoqy/public_html/functions.php on line 2
+[24-Mar-2021 13:39:02 America/New_York] PHP Warning:  include(): Failed opening 'db-config.inc.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/mndfaoqy/public_html/functions.php on line 2
+[24-Mar-2021 13:39:02 America/New_York] PHP Notice:  Undefined index: name in /home/mndfaoqy/public_html/edit.php on line 55
+[24-Mar-2021 13:39:02 America/New_York] PHP Notice:  Undefined index: id in /home/mndfaoqy/public_html/edit.php on line 55
+[24-Mar-2021 13:39:02 America/New_York] PHP Notice:  Undefined index: link in /home/mndfaoqy/public_html/edit.php on line 56
+[24-Mar-2021 13:39:02 America/New_York] PHP Notice:  Undefined index: id in /home/mndfaoqy/public_html/edit.php on line 56
+[24-Mar-2021 13:39:02 America/New_York] PHP Notice:  Undefined index: imgPath in /home/mndfaoqy/public_html/edit.php on line 57
+[24-Mar-2021 13:39:02 America/New_York] PHP Notice:  Undefined index: id in /home/mndfaoqy/public_html/edit.php on line 57
+[24-Mar-2021 13:39:02 America/New_York] PHP Notice:  Undefined index: type in /home/mndfaoqy/public_html/edit.php on line 58
+[24-Mar-2021 13:39:02 America/New_York] PHP Notice:  Undefined index: id in /home/mndfaoqy/public_html/edit.php on line 58
+[24-Mar-2021 13:39:02 America/New_York] PHP Notice:  Undefined index: brand in /home/mndfaoqy/public_html/edit.php on line 59
+[24-Mar-2021 13:39:02 America/New_York] PHP Notice:  Undefined index: id in /home/mndfaoqy/public_html/edit.php on line 59
+[24-Mar-2021 15:33:41 America/New_York] PHP Notice:  Undefined index: user in /home/mndfaoqy/public_html/managerHome.php on line 20
+[24-Mar-2021 15:33:42 America/New_York] PHP Notice:  Undefined index: user in /home/mndfaoqy/public_html/login.php on line 29
+[24-Mar-2021 15:33:42 America/New_York] PHP Notice:  Undefined index: pass in /home/mndfaoqy/public_html/login.php on line 30
+[24-Mar-2021 15:33:51 America/New_York] PHP Notice:  Undefined index: user in /home/mndfaoqy/public_html/managerHome.php on line 20
+[24-Mar-2021 15:33:51 America/New_York] PHP Notice:  Undefined index: user in /home/mndfaoqy/public_html/login.php on line 29
+[24-Mar-2021 15:33:51 America/New_York] PHP Notice:  Undefined index: pass in /home/mndfaoqy/public_html/login.php on line 30
+[24-Mar-2021 15:34:06 America/New_York] PHP Notice:  Undefined index: user in /home/mndfaoqy/public_html/managerHome.php on line 20
+[24-Mar-2021 15:34:06 America/New_York] PHP Notice:  Undefined index: user in /home/mndfaoqy/public_html/login.php on line 29
+[24-Mar-2021 15:34:06 America/New_York] PHP Notice:  Undefined index: pass in /home/mndfaoqy/public_html/login.php on line 30
+[24-Mar-2021 15:37:22 America/New_York] PHP Notice:  Undefined variable: information in /home/mndfaoqy/public_html/addedEntry.php on line 28
+[24-Mar-2021 15:37:22 America/New_York] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mndfaoqy/public_html/addedEntry.php on line 28
+[24-Mar-2021 15:38:16 America/New_York] PHP Warning:  include(db-config.inc.php): failed to open stream: No such file or directory in /home/mndfaoqy/public_html/functions.php on line 2
+[24-Mar-2021 15:38:16 America/New_York] PHP Warning:  include(db-config.inc.php): failed to open stream: No such file or directory in /home/mndfaoqy/public_html/functions.php on line 2
+[24-Mar-2021 15:38:16 America/New_York] PHP Warning:  include(): Failed opening 'db-config.inc.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/mndfaoqy/public_html/functions.php on line 2
+[24-Mar-2021 15:38:16 America/New_York] PHP Notice:  Undefined index: name in /home/mndfaoqy/public_html/edit.php on line 55
+[24-Mar-2021 15:38:16 America/New_York] PHP Notice:  Undefined index: id in /home/mndfaoqy/public_html/edit.php on line 55
+[24-Mar-2021 15:38:16 America/New_York] PHP Notice:  Undefined index: link in /home/mndfaoqy/public_html/edit.php on line 56
+[24-Mar-2021 15:38:16 America/New_York] PHP Notice:  Undefined index: id in /home/mndfaoqy/public_html/edit.php on line 56
+[24-Mar-2021 15:38:16 America/New_York] PHP Notice:  Undefined index: imgPath in /home/mndfaoqy/public_html/edit.php on line 57
+[24-Mar-2021 15:38:16 America/New_York] PHP Notice:  Undefined index: id in /home/mndfaoqy/public_html/edit.php on line 57
+[24-Mar-2021 15:38:16 America/New_York] PHP Notice:  Undefined index: type in /home/mndfaoqy/public_html/edit.php on line 58
+[24-Mar-2021 15:38:16 America/New_York] PHP Notice:  Undefined index: id in /home/mndfaoqy/public_html/edit.php on line 58
+[24-Mar-2021 15:38:16 America/New_York] PHP Notice:  Undefined index: brand in /home/mndfaoqy/public_html/edit.php on line 59
+[24-Mar-2021 15:38:16 America/New_York] PHP Notice:  Undefined index: id in /home/mndfaoqy/public_html/edit.php on line 59
+[24-Mar-2021 15:38:26 America/New_York] PHP Warning:  include(db-config.inc.php): failed to open stream: No such file or directory in /home/mndfaoqy/public_html/functions.php on line 2
+[24-Mar-2021 15:38:26 America/New_York] PHP Warning:  include(db-config.inc.php): failed to open stream: No such file or directory in /home/mndfaoqy/public_html/functions.php on line 2
+[24-Mar-2021 15:38:26 America/New_York] PHP Warning:  include(): Failed opening 'db-config.inc.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/mndfaoqy/public_html/functions.php on line 2
+[24-Mar-2021 15:38:26 America/New_York] PHP Notice:  Undefined index: id in /home/mndfaoqy/public_html/edit.php on line 28
+[24-Mar-2021 15:38:26 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/mndfaoqy/public_html/edit.php on line 38
+[24-Mar-2021 15:38:26 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/mndfaoqy/public_html/edit.php on line 41
+[24-Mar-2021 15:38:26 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/mndfaoqy/public_html/edit.php on line 44
+[24-Mar-2021 15:38:26 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/mndfaoqy/public_html/edit.php on line 47
+[24-Mar-2021 15:38:26 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/mndfaoqy/public_html/edit.php on line 50
+[24-Mar-2021 15:38:26 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/mndfaoqy/public_html/edit.php on line 53
+[24-Mar-2021 15:38:26 America/New_York] PHP Notice:  Undefined index: imgPath in /home/mndfaoqy/public_html/edit.php on line 57
+[24-Mar-2021 15:38:26 America/New_York] PHP Warning:  include(db-config.inc.php): failed to open stream: No such file or directory in /home/mndfaoqy/public_html/functions.php on line 2
+[24-Mar-2021 15:38:26 America/New_York] PHP Warning:  include(db-config.inc.php): failed to open stream: No such file or directory in /home/mndfaoqy/public_html/functions.php on line 2
+[24-Mar-2021 15:38:26 America/New_York] PHP Warning:  include(): Failed opening 'db-config.inc.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/mndfaoqy/public_html/functions.php on line 2
+[24-Mar-2021 15:38:26 America/New_York] PHP Notice:  Undefined index: name in /home/mndfaoqy/public_html/edit.php on line 55
+[24-Mar-2021 15:38:26 America/New_York] PHP Notice:  Undefined index: id in /home/mndfaoqy/public_html/edit.php on line 55
+[24-Mar-2021 15:38:26 America/New_York] PHP Notice:  Undefined index: link in /home/mndfaoqy/public_html/edit.php on line 56
+[24-Mar-2021 15:38:26 America/New_York] PHP Notice:  Undefined index: id in /home/mndfaoqy/public_html/edit.php on line 56
+[24-Mar-2021 15:38:26 America/New_York] PHP Notice:  Undefined index: imgPath in /home/mndfaoqy/public_html/edit.php on line 57
+[24-Mar-2021 15:38:26 America/New_York] PHP Notice:  Undefined index: id in /home/mndfaoqy/public_html/edit.php on line 57
+[24-Mar-2021 15:38:26 America/New_York] PHP Notice:  Undefined index: type in /home/mndfaoqy/public_html/edit.php on line 58
+[24-Mar-2021 15:38:26 America/New_York] PHP Notice:  Undefined index: id in /home/mndfaoqy/public_html/edit.php on line 58
+[24-Mar-2021 15:38:26 America/New_York] PHP Notice:  Undefined index: brand in /home/mndfaoqy/public_html/edit.php on line 59
+[24-Mar-2021 15:38:26 America/New_York] PHP Notice:  Undefined index: id in /home/mndfaoqy/public_html/edit.php on line 59
+[24-Mar-2021 15:39:47 America/New_York] PHP Notice:  Undefined variable: information in /home/mndfaoqy/public_html/addedEntry.php on line 28
+[24-Mar-2021 15:39:47 America/New_York] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mndfaoqy/public_html/addedEntry.php on line 28
+[24-Mar-2021 15:41:57 America/New_York] PHP Notice:  Undefined variable: information in /home/mndfaoqy/public_html/addedEntry.php on line 28
+[24-Mar-2021 15:41:57 America/New_York] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mndfaoqy/public_html/addedEntry.php on line 28
+[24-Mar-2021 15:45:13 America/New_York] PHP Warning:  include(db-config.inc.php): failed to open stream: No such file or directory in /home/mndfaoqy/public_html/functions.php on line 2
+[24-Mar-2021 15:45:13 America/New_York] PHP Warning:  include(db-config.inc.php): failed to open stream: No such file or directory in /home/mndfaoqy/public_html/functions.php on line 2
+[24-Mar-2021 15:45:13 America/New_York] PHP Warning:  include(): Failed opening 'db-config.inc.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/mndfaoqy/public_html/functions.php on line 2
+[24-Mar-2021 15:45:13 America/New_York] PHP Notice:  Undefined index: name in /home/mndfaoqy/public_html/edit.php on line 55
+[24-Mar-2021 15:45:13 America/New_York] PHP Notice:  Undefined index: id in /home/mndfaoqy/public_html/edit.php on line 55
+[24-Mar-2021 15:45:13 America/New_York] PHP Notice:  Undefined index: link in /home/mndfaoqy/public_html/edit.php on line 56
+[24-Mar-2021 15:45:13 America/New_York] PHP Notice:  Undefined index: id in /home/mndfaoqy/public_html/edit.php on line 56
+[24-Mar-2021 15:45:13 America/New_York] PHP Notice:  Undefined index: imgPath in /home/mndfaoqy/public_html/edit.php on line 57
+[24-Mar-2021 15:45:13 America/New_York] PHP Notice:  Undefined index: id in /home/mndfaoqy/public_html/edit.php on line 57
+[24-Mar-2021 15:45:13 America/New_York] PHP Notice:  Undefined index: type in /home/mndfaoqy/public_html/edit.php on line 58
+[24-Mar-2021 15:45:13 America/New_York] PHP Notice:  Undefined index: id in /home/mndfaoqy/public_html/edit.php on line 58
+[24-Mar-2021 15:45:13 America/New_York] PHP Notice:  Undefined index: brand in /home/mndfaoqy/public_html/edit.php on line 59
+[24-Mar-2021 15:45:13 America/New_York] PHP Notice:  Undefined index: id in /home/mndfaoqy/public_html/edit.php on line 59
+[24-Mar-2021 15:45:18 America/New_York] PHP Warning:  include(db-config.inc.php): failed to open stream: No such file or directory in /home/mndfaoqy/public_html/functions.php on line 2
+[24-Mar-2021 15:45:18 America/New_York] PHP Warning:  include(db-config.inc.php): failed to open stream: No such file or directory in /home/mndfaoqy/public_html/functions.php on line 2
+[24-Mar-2021 15:45:18 America/New_York] PHP Warning:  include(): Failed opening 'db-config.inc.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/mndfaoqy/public_html/functions.php on line 2
+[24-Mar-2021 15:45:18 America/New_York] PHP Notice:  Undefined index: id in /home/mndfaoqy/public_html/edit.php on line 28
+[24-Mar-2021 15:45:18 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/mndfaoqy/public_html/edit.php on line 38
+[24-Mar-2021 15:45:18 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/mndfaoqy/public_html/edit.php on line 41
+[24-Mar-2021 15:45:18 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/mndfaoqy/public_html/edit.php on line 44
+[24-Mar-2021 15:45:18 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/mndfaoqy/public_html/edit.php on line 47
+[24-Mar-2021 15:45:18 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/mndfaoqy/public_html/edit.php on line 50
+[24-Mar-2021 15:45:18 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/mndfaoqy/public_html/edit.php on line 53
+[24-Mar-2021 15:45:18 America/New_York] PHP Notice:  Undefined index: imgPath in /home/mndfaoqy/public_html/edit.php on line 57
+[24-Mar-2021 15:45:18 America/New_York] PHP Warning:  include(db-config.inc.php): failed to open stream: No such file or directory in /home/mndfaoqy/public_html/functions.php on line 2
+[24-Mar-2021 15:45:18 America/New_York] PHP Warning:  include(db-config.inc.php): failed to open stream: No such file or directory in /home/mndfaoqy/public_html/functions.php on line 2
+[24-Mar-2021 15:45:18 America/New_York] PHP Warning:  include(): Failed opening 'db-config.inc.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/mndfaoqy/public_html/functions.php on line 2
+[24-Mar-2021 15:45:18 America/New_York] PHP Notice:  Undefined index: name in /home/mndfaoqy/public_html/edit.php on line 55
+[24-Mar-2021 15:45:18 America/New_York] PHP Notice:  Undefined index: id in /home/mndfaoqy/public_html/edit.php on line 55
+[24-Mar-2021 15:45:18 America/New_York] PHP Notice:  Undefined index: link in /home/mndfaoqy/public_html/edit.php on line 56
+[24-Mar-2021 15:45:18 America/New_York] PHP Notice:  Undefined index: id in /home/mndfaoqy/public_html/edit.php on line 56
+[24-Mar-2021 15:45:18 America/New_York] PHP Notice:  Undefined index: imgPath in /home/mndfaoqy/public_html/edit.php on line 57
+[24-Mar-2021 15:45:18 America/New_York] PHP Notice:  Undefined index: id in /home/mndfaoqy/public_html/edit.php on line 57
+[24-Mar-2021 15:45:18 America/New_York] PHP Notice:  Undefined index: type in /home/mndfaoqy/public_html/edit.php on line 58
+[24-Mar-2021 15:45:18 America/New_York] PHP Notice:  Undefined index: id in /home/mndfaoqy/public_html/edit.php on line 58
+[24-Mar-2021 15:45:18 America/New_York] PHP Notice:  Undefined index: brand in /home/mndfaoqy/public_html/edit.php on line 59
+[24-Mar-2021 15:45:18 America/New_York] PHP Notice:  Undefined index: id in /home/mndfaoqy/public_html/edit.php on line 59
+[27-Mar-2021 15:17:16 America/New_York] PHP Warning:  include(db-config.inc.php): failed to open stream: No such file or directory in /home/mndfaoqy/public_html/functions.php on line 2
+[27-Mar-2021 15:17:16 America/New_York] PHP Warning:  include(db-config.inc.php): failed to open stream: No such file or directory in /home/mndfaoqy/public_html/functions.php on line 2
+[27-Mar-2021 15:17:16 America/New_York] PHP Warning:  include(): Failed opening 'db-config.inc.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/mndfaoqy/public_html/functions.php on line 2
+[27-Mar-2021 15:17:16 America/New_York] PHP Notice:  Undefined index: name in /home/mndfaoqy/public_html/edit.php on line 55
+[27-Mar-2021 15:17:16 America/New_York] PHP Notice:  Undefined index: id in /home/mndfaoqy/public_html/edit.php on line 55
+[27-Mar-2021 15:17:16 America/New_York] PHP Notice:  Undefined index: link in /home/mndfaoqy/public_html/edit.php on line 56
+[27-Mar-2021 15:17:16 America/New_York] PHP Notice:  Undefined index: id in /home/mndfaoqy/public_html/edit.php on line 56
+[27-Mar-2021 15:17:16 America/New_York] PHP Notice:  Undefined index: imgPath in /home/mndfaoqy/public_html/edit.php on line 57
+[27-Mar-2021 15:17:16 America/New_York] PHP Notice:  Undefined index: id in /home/mndfaoqy/public_html/edit.php on line 57
+[27-Mar-2021 15:17:16 America/New_York] PHP Notice:  Undefined index: type in /home/mndfaoqy/public_html/edit.php on line 58
+[27-Mar-2021 15:17:16 America/New_York] PHP Notice:  Undefined index: id in /home/mndfaoqy/public_html/edit.php on line 58
+[27-Mar-2021 15:17:16 America/New_York] PHP Notice:  Undefined index: brand in /home/mndfaoqy/public_html/edit.php on line 59
+[27-Mar-2021 15:17:16 America/New_York] PHP Notice:  Undefined index: id in /home/mndfaoqy/public_html/edit.php on line 59
+[27-Mar-2021 15:17:16 America/New_York] PHP Notice:  Undefined index: user in /home/mndfaoqy/public_html/login.php on line 29
+[27-Mar-2021 15:17:16 America/New_York] PHP Notice:  Undefined index: pass in /home/mndfaoqy/public_html/login.php on line 30
+[27-Mar-2021 22:37:30 America/New_York] PHP Notice:  Undefined index: user in /home/mndfaoqy/public_html/managerHome.php on line 20
+[29-Mar-2021 14:19:50 America/New_York] PHP Warning:  include(db-config.inc.php): failed to open stream: No such file or directory in /home/mndfaoqy/public_html/functions.php on line 2
+[29-Mar-2021 14:19:50 America/New_York] PHP Warning:  include(db-config.inc.php): failed to open stream: No such file or directory in /home/mndfaoqy/public_html/functions.php on line 2
+[29-Mar-2021 14:19:50 America/New_York] PHP Warning:  include(): Failed opening 'db-config.inc.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/mndfaoqy/public_html/functions.php on line 2
+[29-Mar-2021 14:19:50 America/New_York] PHP Notice:  Undefined index: name in /home/mndfaoqy/public_html/edit.php on line 55
+[29-Mar-2021 14:19:50 America/New_York] PHP Notice:  Undefined index: id in /home/mndfaoqy/public_html/edit.php on line 55
+[29-Mar-2021 14:19:50 America/New_York] PHP Notice:  Undefined index: link in /home/mndfaoqy/public_html/edit.php on line 56
+[29-Mar-2021 14:19:50 America/New_York] PHP Notice:  Undefined index: id in /home/mndfaoqy/public_html/edit.php on line 56
+[29-Mar-2021 14:19:50 America/New_York] PHP Notice:  Undefined index: imgPath in /home/mndfaoqy/public_html/edit.php on line 57
+[29-Mar-2021 14:19:50 America/New_York] PHP Notice:  Undefined index: id in /home/mndfaoqy/public_html/edit.php on line 57
+[29-Mar-2021 14:19:50 America/New_York] PHP Notice:  Undefined index: type in /home/mndfaoqy/public_html/edit.php on line 58
+[29-Mar-2021 14:19:50 America/New_York] PHP Notice:  Undefined index: id in /home/mndfaoqy/public_html/edit.php on line 58
+[29-Mar-2021 14:19:50 America/New_York] PHP Notice:  Undefined index: brand in /home/mndfaoqy/public_html/edit.php on line 59
+[29-Mar-2021 14:19:50 America/New_York] PHP Notice:  Undefined index: id in /home/mndfaoqy/public_html/edit.php on line 59
+[30-Mar-2021 10:22:39 America/New_York] PHP Notice:  Undefined index: user in /home/mndfaoqy/public_html/managerHome.php on line 20
+[30-Mar-2021 10:22:39 America/New_York] PHP Notice:  Undefined index: user in /home/mndfaoqy/public_html/login.php on line 29
+[30-Mar-2021 10:22:39 America/New_York] PHP Notice:  Undefined index: pass in /home/mndfaoqy/public_html/login.php on line 30
+[30-Mar-2021 10:52:57 America/New_York] PHP Notice:  Undefined variable: information in /home/mndfaoqy/public_html/result.php on line 38
+[30-Mar-2021 10:52:57 America/New_York] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mndfaoqy/public_html/result.php on line 38
+[30-Mar-2021 10:53:09 America/New_York] PHP Notice:  Undefined variable: information in /home/mndfaoqy/public_html/result.php on line 38
+[30-Mar-2021 10:53:09 America/New_York] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mndfaoqy/public_html/result.php on line 38
+[30-Mar-2021 11:26:00 America/New_York] PHP Notice:  Undefined index: user in /home/mndfaoqy/public_html/managerHome.php on line 20
+[30-Mar-2021 11:26:00 America/New_York] PHP Notice:  Undefined index: user in /home/mndfaoqy/public_html/login.php on line 29
+[30-Mar-2021 11:26:00 America/New_York] PHP Notice:  Undefined index: pass in /home/mndfaoqy/public_html/login.php on line 30
+[30-Mar-2021 11:26:27 America/New_York] PHP Warning:  include(db-config.inc.php): failed to open stream: No such file or directory in /home/mndfaoqy/public_html/functions.php on line 2
+[30-Mar-2021 11:26:27 America/New_York] PHP Warning:  include(db-config.inc.php): failed to open stream: No such file or directory in /home/mndfaoqy/public_html/functions.php on line 2
+[30-Mar-2021 11:26:27 America/New_York] PHP Warning:  include(): Failed opening 'db-config.inc.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/mndfaoqy/public_html/functions.php on line 2
+[30-Mar-2021 11:26:27 America/New_York] PHP Notice:  Undefined index: name in /home/mndfaoqy/public_html/edit.php on line 55
+[30-Mar-2021 11:26:27 America/New_York] PHP Notice:  Undefined index: id in /home/mndfaoqy/public_html/edit.php on line 55
+[30-Mar-2021 11:26:27 America/New_York] PHP Notice:  Undefined index: link in /home/mndfaoqy/public_html/edit.php on line 56
+[30-Mar-2021 11:26:27 America/New_York] PHP Notice:  Undefined index: id in /home/mndfaoqy/public_html/edit.php on line 56
+[30-Mar-2021 11:26:27 America/New_York] PHP Notice:  Undefined index: imgPath in /home/mndfaoqy/public_html/edit.php on line 57
+[30-Mar-2021 11:26:27 America/New_York] PHP Notice:  Undefined index: id in /home/mndfaoqy/public_html/edit.php on line 57
+[30-Mar-2021 11:26:27 America/New_York] PHP Notice:  Undefined index: type in /home/mndfaoqy/public_html/edit.php on line 58
+[30-Mar-2021 11:26:27 America/New_York] PHP Notice:  Undefined index: id in /home/mndfaoqy/public_html/edit.php on line 58
+[30-Mar-2021 11:26:27 America/New_York] PHP Notice:  Undefined index: brand in /home/mndfaoqy/public_html/edit.php on line 59
+[30-Mar-2021 11:26:27 America/New_York] PHP Notice:  Undefined index: id in /home/mndfaoqy/public_html/edit.php on line 59
+[30-Mar-2021 11:42:34 America/New_York] PHP Notice:  Undefined variable: information in /home/mndfaoqy/public_html/addedEntry.php on line 28
+[30-Mar-2021 11:42:34 America/New_York] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mndfaoqy/public_html/addedEntry.php on line 28
+[30-Mar-2021 13:47:05 America/New_York] PHP Notice:  Undefined variable: information in /home/mndfaoqy/public_html/result.php on line 38
+[30-Mar-2021 13:47:05 America/New_York] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mndfaoqy/public_html/result.php on line 38
+[30-Mar-2021 13:47:34 America/New_York] PHP Notice:  Undefined variable: information in /home/mndfaoqy/public_html/products.php on line 109
+[30-Mar-2021 13:47:34 America/New_York] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mndfaoqy/public_html/products.php on line 109
+[30-Mar-2021 13:47:47 America/New_York] PHP Notice:  Undefined index: user in /home/mndfaoqy/public_html/managerHome.php on line 20
+[30-Mar-2021 13:47:47 America/New_York] PHP Notice:  Undefined index: user in /home/mndfaoqy/public_html/login.php on line 29
+[30-Mar-2021 13:47:47 America/New_York] PHP Notice:  Undefined index: pass in /home/mndfaoqy/public_html/login.php on line 30
+[30-Mar-2021 13:48:44 America/New_York] PHP Notice:  Undefined variable: information in /home/mndfaoqy/public_html/addedEntry.php on line 28
+[30-Mar-2021 13:48:44 America/New_York] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mndfaoqy/public_html/addedEntry.php on line 28
+[30-Mar-2021 14:42:09 America/New_York] PHP Notice:  Undefined variable: information in /home/mndfaoqy/public_html/result.php on line 38
+[30-Mar-2021 14:42:09 America/New_York] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mndfaoqy/public_html/result.php on line 38
+[30-Mar-2021 14:42:55 America/New_York] PHP Notice:  Undefined variable: information in /home/mndfaoqy/public_html/result.php on line 38
+[30-Mar-2021 14:42:55 America/New_York] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mndfaoqy/public_html/result.php on line 38
+[30-Mar-2021 14:43:19 America/New_York] PHP Notice:  Undefined variable: information in /home/mndfaoqy/public_html/result.php on line 38
+[30-Mar-2021 14:43:19 America/New_York] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mndfaoqy/public_html/result.php on line 38
+[30-Mar-2021 15:13:39 America/New_York] PHP Notice:  Undefined variable: information in /home/mndfaoqy/public_html/result.php on line 38
+[30-Mar-2021 15:13:39 America/New_York] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mndfaoqy/public_html/result.php on line 38
+[30-Mar-2021 15:14:44 America/New_York] PHP Notice:  Undefined variable: information in /home/mndfaoqy/public_html/products.php on line 109
+[30-Mar-2021 15:14:44 America/New_York] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mndfaoqy/public_html/products.php on line 109
+[30-Mar-2021 15:14:55 America/New_York] PHP Notice:  Undefined index: user in /home/mndfaoqy/public_html/managerHome.php on line 20
+[30-Mar-2021 15:14:55 America/New_York] PHP Notice:  Undefined index: user in /home/mndfaoqy/public_html/login.php on line 29
+[30-Mar-2021 15:14:55 America/New_York] PHP Notice:  Undefined index: pass in /home/mndfaoqy/public_html/login.php on line 30
+[30-Mar-2021 15:15:59 America/New_York] PHP Notice:  Undefined variable: information in /home/mndfaoqy/public_html/addedEntry.php on line 28
+[30-Mar-2021 15:15:59 America/New_York] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mndfaoqy/public_html/addedEntry.php on line 28
+[30-Mar-2021 16:38:55 America/New_York] PHP Notice:  Undefined variable: information in /home/mndfaoqy/public_html/result.php on line 38
+[30-Mar-2021 16:38:55 America/New_York] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mndfaoqy/public_html/result.php on line 38
+[30-Mar-2021 16:39:51 America/New_York] PHP Notice:  Undefined variable: information in /home/mndfaoqy/public_html/products.php on line 109
+[30-Mar-2021 16:39:51 America/New_York] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mndfaoqy/public_html/products.php on line 109
+[30-Mar-2021 16:40:01 America/New_York] PHP Notice:  Undefined index: user in /home/mndfaoqy/public_html/managerHome.php on line 20
+[30-Mar-2021 16:40:01 America/New_York] PHP Notice:  Undefined index: user in /home/mndfaoqy/public_html/login.php on line 29
+[30-Mar-2021 16:40:01 America/New_York] PHP Notice:  Undefined index: pass in /home/mndfaoqy/public_html/login.php on line 30
+[30-Mar-2021 16:40:41 America/New_York] PHP Notice:  Undefined variable: information in /home/mndfaoqy/public_html/addedEntry.php on line 28
+[30-Mar-2021 16:40:41 America/New_York] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mndfaoqy/public_html/addedEntry.php on line 28
+[30-Mar-2021 16:53:39 America/New_York] PHP Notice:  Undefined variable: information in /home/mndfaoqy/public_html/result.php on line 38
+[30-Mar-2021 16:53:39 America/New_York] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mndfaoqy/public_html/result.php on line 38
+[30-Mar-2021 16:55:02 America/New_York] PHP Notice:  Undefined variable: information in /home/mndfaoqy/public_html/result.php on line 38
+[30-Mar-2021 16:55:02 America/New_York] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mndfaoqy/public_html/result.php on line 38
+[30-Mar-2021 16:55:02 America/New_York] PHP Notice:  Undefined variable: concerns in /home/mndfaoqy/public_html/result.php on line 93
+[30-Mar-2021 16:55:02 America/New_York] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mndfaoqy/public_html/result.php on line 93
+[30-Mar-2021 16:55:02 America/New_York] PHP Notice:  Undefined variable: ingred in /home/mndfaoqy/public_html/result.php on line 105
+[30-Mar-2021 16:55:02 America/New_York] PHP Notice:  Undefined variable: ingred in /home/mndfaoqy/public_html/result.php on line 111
+[30-Mar-2021 16:55:02 America/New_York] PHP Notice:  Undefined variable: sunscreen in /home/mndfaoqy/public_html/result.php on line 119

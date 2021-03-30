@@ -1,4 +1,4 @@
-<!-- This page gets ifnoramtion from the user via the form/filter and then dispalys it -->
+<!-- This page gets information from the user via the form/filter and then dispalys it -->
 <?php
     session_start();
     include 'database.inc.php';
@@ -141,7 +141,7 @@
                 }
 
                 //the sql is selecting all from products 
-                $sql = "select * from products where 1=1";
+                $sql = "select * from Products where 1=1";
 
                 //if the concern is equal to an actual selected concern then we are going to add it to the sql. it is going to get the 
                 //product id from the product_purpose table where it equals what the concern is
@@ -269,7 +269,7 @@
 
                     //selecting everything from the products table 
                     $sql = "select * 
-                            from products";
+                            from Products";
 
                     $stmt = $mysqli->prepare($sql);
                     $stmt->execute();
@@ -394,5 +394,6 @@
             ?>
 
         </form>
+        <?php include ("footer.php")?>
     </body>
 </html>

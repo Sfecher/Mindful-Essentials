@@ -80,5 +80,7 @@
 
             <input class="skinT" type="submit" name="button" id="button" value="CHOOSE">
         </form>
+        <br>
+        <?php include ("footer.php")?>
     </body>
 </html>
